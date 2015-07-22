@@ -11,3 +11,12 @@
 *.lai
 *.la
 *.a
+
+*.log
+*.tlog
+*.lastbuildstate
+*.obj
+*.sdf
+*.idb
+*.pdb
+*.opensdf
