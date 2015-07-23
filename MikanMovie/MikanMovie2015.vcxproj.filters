@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="WinSDKSample">
+      <UniqueIdentifier>{ffa0d703-da19-4488-9b9d-f7f481354ca4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WinSDKSample\amextra.cpp">
+      <Filter>WinSDKSample</Filter>
+    </ClCompile>
+    <ClCompile Include="WinSDKSample\amfilter.cpp">
+      <Filter>WinSDKSample</Filter>
+    </ClCompile>
+    <ClCompile Include="WinSDKSample\amvideo.cpp">
+      <Filter>WinSDKSample</Filter>
+    </ClCompile>
+    <ClCompile Include="WinSDKSample\arithutil.cpp">
+      <Filter>WinSDKSample</Filter>
+    </ClCompile>
+    <ClCompile Include="WinSDKSample\combase.cpp">
+      <Filter>WinSDKSample</Filter>
+    </ClCompile>
+    <ClCompile Include="WinSDKSample\cprop.cpp">
+      <Filter>WinSDKSample</Filter>
+    </ClCompile>
+    <ClCompile Include="WinSDKSample\ctlutil.cpp">
+      <Filter>WinSDKSample</Filter>
+    </ClCompile>
+    <ClCompile Include="WinSDKSample\ddmm.cpp">
+      <Filter>WinSDKSample</Filter>
+    </ClCompile>
+    <ClCompile Include="WinSDKSample\dllentry.cpp">
+      <Filter>WinSDKSample</Filter>
+    </ClCompile>
+    <ClCompile Include="WinSDKSample\dllsetup.cpp">
+      <Filter>WinSDKSample</Filter>
+    </ClCompile>
+    <ClCompile Include="WinSDKSample\mtype.cpp">
+      <Filter>WinSDKSample</Filter>
+    </ClCompile>
+    <ClCompile Include="WinSDKSample\outputq.cpp">
+      <Filter>WinSDKSample</Filter>
+    </ClCompile>
+    <ClCompile Include="WinSDKSample\perflog.cpp">
+      <Filter>WinSDKSample</Filter>
+    </ClCompile>
+    <ClCompile Include="WinSDKSample\pstream.cpp">
+      <Filter>WinSDKSample</Filter>
+    </ClCompile>
+    <ClCompile Include="WinSDKSample\pullpin.cpp">
+      <Filter>WinSDKSample</Filter>
+    </ClCompile>
+    <ClCompile Include="WinSDKSample\refclock.cpp">
+      <Filter>WinSDKSample</Filter>
+    </ClCompile>
+    <ClCompile Include="WinSDKSample\renbase.cpp">
+      <Filter>WinSDKSample</Filter>
+    </ClCompile>
+    <ClCompile Include="WinSDKSample\schedule.cpp">
+      <Filter>WinSDKSample</Filter>
+    </ClCompile>
+    <ClCompile Include="WinSDKSample\seekpt.cpp">
+      <Filter>WinSDKSample</Filter>
+    </ClCompile>
+    <ClCompile Include="WinSDKSample\source.cpp">
+      <Filter>WinSDKSample</Filter>
+    </ClCompile>
+    <ClCompile Include="WinSDKSample\strmctl.cpp">
+      <Filter>WinSDKSample</Filter>
+    </ClCompile>
+    <ClCompile Include="WinSDKSample\sysclock.cpp">
+      <Filter>WinSDKSample</Filter>
+    </ClCompile>
+    <ClCompile Include="WinSDKSample\transfrm.cpp">
+      <Filter>WinSDKSample</Filter>
+    </ClCompile>
+    <ClCompile Include="WinSDKSample\transip.cpp">
+      <Filter>WinSDKSample</Filter>
+    </ClCompile>
+    <ClCompile Include="WinSDKSample\videoctl.cpp">
+      <Filter>WinSDKSample</Filter>
+    </ClCompile>
+    <ClCompile Include="WinSDKSample\vtrans.cpp">
+      <Filter>WinSDKSample</Filter>
+    </ClCompile>
+    <ClCompile Include="WinSDKSample\winctrl.cpp">
+      <Filter>WinSDKSample</Filter>
+    </ClCompile>
+    <ClCompile Include="WinSDKSample\winutil.cpp">
+      <Filter>WinSDKSample</Filter>
+    </ClCompile>
+    <ClCompile Include="WinSDKSample\wxdebug.cpp">
+      <Filter>WinSDKSample</Filter>
+    </ClCompile>
+    <ClCompile Include="WinSDKSample\wxlist.cpp">
+      <Filter>WinSDKSample</Filter>
+    </ClCompile>
+    <ClCompile Include="WinSDKSample\wxutil.cpp">
+      <Filter>WinSDKSample</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawMikanMovie.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="MikanMovie.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="MikanMovieManagement.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="MikanMoviePlayer.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="SurfaceList.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="VMRSurfaceAllocator.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="CriticalLock.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="WinSDKSample\amextra.h">
+      <Filter>WinSDKSample</Filter>
+    </ClInclude>
+    <ClInclude Include="WinSDKSample\amfilter.h">
+      <Filter>WinSDKSample</Filter>
+    </ClInclude>
+    <ClInclude Include="WinSDKSample\cache.h">
+      <Filter>WinSDKSample</Filter>
+    </ClInclude>
+    <ClInclude Include="WinSDKSample\checkbmi.h">
+      <Filter>WinSDKSample</Filter>
+    </ClInclude>
+    <ClInclude Include="WinSDKSample\combase.h">
+      <Filter>WinSDKSample</Filter>
+    </ClInclude>
+    <ClInclude Include="WinSDKSample\cprop.h">
+      <Filter>WinSDKSample</Filter>
+    </ClInclude>
+    <ClInclude Include="WinSDKSample\ctlutil.h">
+      <Filter>WinSDKSample</Filter>
+    </ClInclude>
+    <ClInclude Include="WinSDKSample\ddmm.h">
+      <Filter>WinSDKSample</Filter>
+    </ClInclude>
+    <ClInclude Include="WinSDKSample\dllsetup.h">
+      <Filter>WinSDKSample</Filter>
+    </ClInclude>
+    <ClInclude Include="WinSDKSample\dxmperf.h">
+      <Filter>WinSDKSample</Filter>
+    </ClInclude>
+    <ClInclude Include="WinSDKSample\fourcc.h">
+      <Filter>WinSDKSample</Filter>
+    </ClInclude>
+    <ClInclude Include="WinSDKSample\measure.h">
+      <Filter>WinSDKSample</Filter>
+    </ClInclude>
+    <ClInclude Include="WinSDKSample\msgthrd.h">
+      <Filter>WinSDKSample</Filter>
+    </ClInclude>
+    <ClInclude Include="WinSDKSample\mtype.h">
+      <Filter>WinSDKSample</Filter>
+    </ClInclude>
+    <ClInclude Include="WinSDKSample\outputq.h">
+      <Filter>WinSDKSample</Filter>
+    </ClInclude>
+    <ClInclude Include="WinSDKSample\perflog.h">
+      <Filter>WinSDKSample</Filter>
+    </ClInclude>
+    <ClInclude Include="WinSDKSample\perfstruct.h">
+      <Filter>WinSDKSample</Filter>
+    </ClInclude>
+    <ClInclude Include="WinSDKSample\pstream.h">
+      <Filter>WinSDKSample</Filter>
+    </ClInclude>
+    <ClInclude Include="WinSDKSample\pullpin.h">
+      <Filter>WinSDKSample</Filter>
+    </ClInclude>
+    <ClInclude Include="WinSDKSample\refclock.h">
+      <Filter>WinSDKSample</Filter>
+    </ClInclude>
+    <ClInclude Include="WinSDKSample\reftime.h">
+      <Filter>WinSDKSample</Filter>
+    </ClInclude>
+    <ClInclude Include="WinSDKSample\renbase.h">
+      <Filter>WinSDKSample</Filter>
+    </ClInclude>
+    <ClInclude Include="WinSDKSample\schedule.h">
+      <Filter>WinSDKSample</Filter>
+    </ClInclude>
+    <ClInclude Include="WinSDKSample\seekpt.h">
+      <Filter>WinSDKSample</Filter>
+    </ClInclude>
+    <ClInclude Include="WinSDKSample\source.h">
+      <Filter>WinSDKSample</Filter>
+    </ClInclude>
+    <ClInclude Include="WinSDKSample\streams.h">
+      <Filter>WinSDKSample</Filter>
+    </ClInclude>
+    <ClInclude Include="WinSDKSample\strmctl.h">
+      <Filter>WinSDKSample</Filter>
+    </ClInclude>
+    <ClInclude Include="WinSDKSample\sysclock.h">
+      <Filter>WinSDKSample</Filter>
+    </ClInclude>
+    <ClInclude Include="WinSDKSample\transfrm.h">
+      <Filter>WinSDKSample</Filter>
+    </ClInclude>
+    <ClInclude Include="WinSDKSample\transip.h">
+      <Filter>WinSDKSample</Filter>
+    </ClInclude>
+    <ClInclude Include="WinSDKSample\videoctl.h">
+      <Filter>WinSDKSample</Filter>
+    </ClInclude>
+    <ClInclude Include="WinSDKSample\vtrans.h">
+      <Filter>WinSDKSample</Filter>
+    </ClInclude>
+    <ClInclude Include="WinSDKSample\winctrl.h">
+      <Filter>WinSDKSample</Filter>
+    </ClInclude>
+    <ClInclude Include="WinSDKSample\winutil.h">
+      <Filter>WinSDKSample</Filter>
+    </ClInclude>
+    <ClInclude Include="WinSDKSample\wxdebug.h">
+      <Filter>WinSDKSample</Filter>
+    </ClInclude>
+    <ClInclude Include="WinSDKSample\wxlist.h">
+      <Filter>WinSDKSample</Filter>
+    </ClInclude>
+    <ClInclude Include="WinSDKSample\wxutil.h">
+      <Filter>WinSDKSample</Filter>
+    </ClInclude>
+    <ClInclude Include="CriticalLock.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="MikanMovie.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="MikanMovieManagement.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="MikanMoviePlayer.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="MikanVMRSurfaceAllocator.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

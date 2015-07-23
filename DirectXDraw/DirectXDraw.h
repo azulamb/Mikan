@@ -254,7 +254,7 @@ protected:
 	// ‘½ŠpŒ`
 	struct POLYGON_VERTEX *pv;
 	struct CUSTOMVERTEX *rpv;
-	int rpvmax;
+	unsigned int rpvmax;
 	// ƒ‰ƒCƒ“
 	struct D3DXVECTOR2 linevec[ 2 ];
 	struct ID3DXLine *line;
