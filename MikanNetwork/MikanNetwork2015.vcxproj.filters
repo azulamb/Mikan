@@ -23,9 +23,6 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="MikanNetworkIO.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
     <ClCompile Include="MikanNetwork.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>

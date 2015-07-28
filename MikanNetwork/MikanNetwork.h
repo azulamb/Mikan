@@ -2,7 +2,7 @@
 #define CLASSDEF_NETWORK class MikanNetwork
 
 // MikanNetwork‚ÍMikanSocket‚ÉˆË‘¶‚·‚éƒ‰ƒCƒuƒ‰ƒŠB
-#ifndef _MIKANDEVELOPER
+#ifndef _UNLINK_LIBRARY
 #ifdef _MIKANDEV
 #include "Dev/MikanSocket.h"
 #else

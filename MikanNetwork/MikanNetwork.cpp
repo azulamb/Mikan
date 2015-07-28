@@ -103,7 +103,7 @@ int MikanNetwork::SecondInit( void )
 	{
 		p2pthread = ( struct P2PTHREADDATA * )calloc( p2p_max, sizeof( struct P2PTHREADDATA ) );
 
-		for ( i = 0 ; i < p2p_max ; ++i )
+		for ( i = 0; i < p2p_max; ++i )
 		{
 			p2pthread[ i ].handle = NULL;
 			p2pthread[ i ].lockhandle = NULL;
@@ -111,7 +111,7 @@ int MikanNetwork::SecondInit( void )
 		}
 
 		msocket = ( class MikanSocket ** )calloc( socket_max, sizeof( class MikanSocket * ) );
-		for ( i = 0 ; i < socket_max ; ++i )
+		for ( i = 0; i < socket_max; ++i )
 		{
 			msocket[ i ] = new MikanSocket();
 		}
@@ -124,14 +124,14 @@ int MikanNetwork::Release( void )
 {
 	unsigned int i;
 
-	for ( i = 0 ; i < p2p_max ; ++i )
+	for ( i = 0; i < p2p_max; ++i )
 	{
 		StopP2PNetwork( i );
 	}
 
 	SAFE_FREE( p2pthread );
 
-	for ( i = 0 ; i < socket_max ; ++i )
+	for ( i = 0; i < socket_max; ++i )
 	{
 		delete( msocket[ i ] );
 	}
@@ -486,7 +486,7 @@ unsigned long * MikanNetwork::GetNicAddrList( int *size )
 		return ret;
 	}
 
-	for ( i = 0; i < isize ; ++i )
+	for ( i = 0; i < isize; ++i )
 	{
 		addr = (sockaddr_in *)& ( InterfaceList[ i ].iiAddress );
 
@@ -592,7 +592,7 @@ int MikanNetwork::EncodeURL( const char *src, char *dist )
 	// とりあえず必要なバイト数を計算する。
 	size = 1;
 	//for( i = 0 ; i < size ; ++i )
-	for ( i = 0 ; src[ i ] != '\0' ; ++i )
+	for ( i = 0; src[ i ] != '\0'; ++i )
 	{
 		switch ( urlencodetable[ src[ i ] ] )
 		{
@@ -613,7 +613,7 @@ int MikanNetwork::EncodeURL( const char *src, char *dist )
 	}
 
 	w = 0;
-	for ( i = 0 ; src[ i ] != '\0' ; ++i )
+	for ( i = 0; src[ i ] != '\0'; ++i )
 	{
 		if ( urlencodetable[ src[ i ] ] == 6 )
 		{
@@ -649,7 +649,7 @@ int MikanNetwork::SplitHost( const char *src, char *dist, unsigned short *port )
 	}
 
 	// http:// とか除去。
-	for ( r = 0 ; src[ r ] != '\0' ; ++r )
+	for ( r = 0; src[ r ] != '\0'; ++r )
 	{
 		if ( src[ r ] == ':' )
 		{
@@ -673,7 +673,7 @@ int MikanNetwork::SplitHost( const char *src, char *dist, unsigned short *port )
 
 	// http://～/までのドメインをコピー。
 	// ポート番号が出てきたらそこでストップ。
-	for ( ++r ; src[ r ] != '\0' ; ++r )
+	for ( ++r; src[ r ] != '\0'; ++r )
 	{
 		if ( src[ r ] == ':' || src[ r ] == '/' )
 		{
@@ -722,7 +722,7 @@ int MikanNetwork::SplitPath( const char *src, char *dist )
 
 
 	// http://～/ の/一歩手前まで進む。
-	for ( r = 0 ; src[ r ] != '\0' ; ++r )
+	for ( r = 0; src[ r ] != '\0'; ++r )
 	{
 		if ( src[ r ] == '/' && src[ r + 1 ] == '/' )
 		{
@@ -734,7 +734,7 @@ int MikanNetwork::SplitPath( const char *src, char *dist )
 	}
 
 	// URLチェック。
-	for ( tmp = r ; src[ tmp ] != '\0' ; ++tmp )
+	for ( tmp = r; src[ tmp ] != '\0'; ++tmp )
 	{
 		if ( src[ tmp ] == '?' )
 		{
@@ -859,7 +859,7 @@ class MikanSocket * MikanNetwork::HttpConnect( const char *address, const char *
 
 	if ( proxy )
 	{
-		for ( r = 0 ; address[ r ] != '\0' ; ++r )
+		for ( r = 0; address[ r ] != '\0'; ++r )
 		{
 			if ( address[ r ] == '/' && address[ r + 1 ] != '/' )
 			{
@@ -1124,7 +1124,7 @@ int MikanNetwork::HttpReceiveBody( class MikanSocket *msock, const char *filepat
 	{
 		sp = 0;
 		size = strlen( address );
-		for ( r = 0 ; r < size ; ++r )
+		for ( r = 0; r < size; ++r )
 		{
 			if ( address[ r ] == '/' )
 			{
@@ -1132,7 +1132,7 @@ int MikanNetwork::HttpReceiveBody( class MikanSocket *msock, const char *filepat
 			}
 		}
 		++sp;
-		for ( r = size - 1 ; sp < r ; --r )
+		for ( r = size - 1; sp < r; --r )
 		{
 			if ( address[ r ] == '?' )
 			{
@@ -1324,7 +1324,7 @@ int MikanNetwork::StopP2PNetwork( unsigned int p2pnum )
 
 	GetP2PClientList( p2pnum, &max );
 
-	for ( i = 0 ; i < max ; ++i )
+	for ( i = 0; i < max; ++i )
 	{
 		ClearP2PClientList( i );
 	}
@@ -1415,7 +1415,7 @@ struct MIKANCLIENT * MikanNetwork::GetP2PClientList( unsigned int p2pnum, unsign
 	ret = ( struct MIKANCLIENT * )calloc( p2pthread[ p2pnum ].client_max, sizeof( struct MIKANCLIENT ) );
 	read = p2pthread[ p2pnum ].clientlist;
 
-	for ( i = 0 ; i < p2pthread[ p2pnum ].client_max && read ; ++i )
+	for ( i = 0; i < p2pthread[ p2pnum ].client_max && read; ++i )
 	{
 		ret[ i ].ipaddr = read->ipaddr;
 		ret[ i ].lastlogin = read->lastlogin;
