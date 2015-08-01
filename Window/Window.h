@@ -30,12 +30,12 @@
 //ウィンドウタイプの設定
 enum WINDOWTYPE
 {
-	WT_RENEWAL = 0,            // 現在の設定を維持
-	WT_DEFAULT = 1,            // リサイズ不可のウィンドウ
-	WT_NORMAL = 2,              // リサイズなども可能なウィンドウ
+	WT_RENEWAL            = 0, // 現在の設定を維持
+	WT_DEFAULT            = 1, // リサイズ不可のウィンドウ
+	WT_NORMAL             = 2, // リサイズなども可能なウィンドウ
 	WT_NORESIZEFULLSCREEN = 3, // 画面設定を変更しないフルスクリーン
-	WT_NOFRAME = 4,            // 枠のないウィンドウ
-	WT_FULLSCREEN = 5,         // フルスクリーン
+	WT_NOFRAME            = 4, // 枠のないウィンドウ
+	WT_FULLSCREEN         = 5, // フルスクリーン
 };
 
 //ウィンドウスタイルの定義

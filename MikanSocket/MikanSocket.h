@@ -27,7 +27,7 @@
 #include "../FileIO/FileIO.h"
 #endif
 
-#ifndef _UNLINK_LIBRARY
+#ifndef _UNLOADLIBRARY
 #  pragma comment ( lib, "ws2_32.lib" )
 #  ifdef _MIKANDEV
 #    ifdef _DEBUG
