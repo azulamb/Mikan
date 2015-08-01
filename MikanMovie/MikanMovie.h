@@ -20,6 +20,8 @@
 #endif
 
 #ifndef _UNLINK_LIBRARY
+#pragma comment(lib,"dxguid.lib")
+#pragma comment(lib,"Strmiids.lib") 
 #  ifdef _DEBUG
 #    pragma comment( lib, "MikanMovieD.lib" )
 #  else
