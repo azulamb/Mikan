@@ -99,7 +99,7 @@ namespace Thaleia
 		else
 		{
 			//ŒvZ
-			double diff = 1.0f - abs( pan );
+			double diff = 1.0f - fabs( pan );
 			pan_mb = (long)( log10( diff*diff ) * 1000 );
 			if ( pan > 0 )
 				pan_mb *= -1;

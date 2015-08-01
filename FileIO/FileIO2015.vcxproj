@@ -126,20 +126,22 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DevDebug|Win32'">
     <OutDir>$(SolutionDir)$(Configuration)_2015\</OutDir>
     <IntDir>$(Configuration)_2015\</IntDir>
-    <TargetName>$(ProjectName)D</TargetName>
+    <TargetName>FileIOD</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <OutDir>$(SolutionDir)$(Configuration)_2015\</OutDir>
     <IntDir>$(Configuration)_2015\</IntDir>
-    <TargetName>$(ProjectName)D</TargetName>
+    <TargetName>FileIOD</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <OutDir>$(SolutionDir)$(Configuration)_2015\</OutDir>
     <IntDir>$(Configuration)_2015\</IntDir>
+    <TargetName>FileIO</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DevRelease|Win32'">
     <OutDir>$(SolutionDir)$(Configuration)_2015\</OutDir>
     <IntDir>$(Configuration)_2015\</IntDir>
+    <TargetName>FileIO</TargetName>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>

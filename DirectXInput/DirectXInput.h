@@ -3,7 +3,7 @@
 #include <DxErr.h>
 
 //#define __USEFORCEFEEDBACK
-#ifndef _UNLINK_LIBRARY
+#ifndef _UNLOADLIBRARY
 //リンクするライブラリの指定。VC限定。
 #pragma comment(lib,"dinput8.lib")
 #pragma comment(lib,"dxguid.lib")
@@ -30,7 +30,7 @@
 #  endif
 #else
 #  include "keymap.h"
-#  ifndef _UNLINK_LIBRARY
+#  ifndef _UNLOADLIBRARY
 #    ifdef _DEBUG
 #      pragma comment(lib,"DirectXInputD.lib")
 #    else

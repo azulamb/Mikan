@@ -128,26 +128,28 @@
     <OutDir>$(SolutionDir)$(Configuration)_2015\</OutDir>
     <IntDir>$(Configuration)_2015\</IntDir>
     <LibraryPath>$(DXSDK_DIR)Lib\x86;$(LibraryPath)</LibraryPath>
-    <TargetName>$(ProjectName)D</TargetName>
+    <TargetName>MikanMovieD</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DevDebug|Win32'">
     <IncludePath>$(DXSDK_DIR)Include;WinSDKSample;$(IncludePath)</IncludePath>
     <OutDir>$(SolutionDir)$(Configuration)_2015\</OutDir>
     <IntDir>$(Configuration)_2015\</IntDir>
     <LibraryPath>$(DXSDK_DIR)Lib\x86;$(LibraryPath)</LibraryPath>
-    <TargetName>$(ProjectName)D</TargetName>
+    <TargetName>MikanMovieD</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <IncludePath>$(DXSDK_DIR)Include;WinSDKSample;$(IncludePath)</IncludePath>
     <OutDir>$(SolutionDir)$(Configuration)_2015\</OutDir>
     <IntDir>$(Configuration)_2015\</IntDir>
     <LibraryPath>$(DXSDK_DIR)Lib\x86;$(LibraryPath)</LibraryPath>
+    <TargetName>MikanMovie</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DevRelease|Win32'">
     <IncludePath>$(DXSDK_DIR)Include;WinSDKSample;$(IncludePath)</IncludePath>
     <OutDir>$(SolutionDir)$(Configuration)_2015\</OutDir>
     <IntDir>$(Configuration)_2015\</IntDir>
     <LibraryPath>$(DXSDK_DIR)Lib\x86;$(LibraryPath)</LibraryPath>
+    <TargetName>MikanMovie</TargetName>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>

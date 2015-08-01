@@ -124,22 +124,24 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <OutDir>$(SolutionDir)$(Configuration)2015\</OutDir>
-    <IntDir>$(Configuration)2015\</IntDir>
-    <TargetName>$(ProjectName)D</TargetName>
+    <OutDir>$(SolutionDir)$(Configuration)_2015\</OutDir>
+    <IntDir>$(Configuration)_2015\</IntDir>
+    <TargetName>MikanSoundD</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DevDebug|Win32'">
-    <OutDir>$(SolutionDir)$(Configuration)2015\</OutDir>
-    <IntDir>$(Configuration)2015\</IntDir>
-    <TargetName>$(ProjectName)D</TargetName>
+    <OutDir>$(SolutionDir)$(Configuration)_2015\</OutDir>
+    <IntDir>$(Configuration)_2015\</IntDir>
+    <TargetName>MikanSoundD</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <OutDir>$(SolutionDir)$(Configuration)2015\</OutDir>
-    <IntDir>$(Configuration)2015\</IntDir>
+    <OutDir>$(SolutionDir)$(Configuration)_2015\</OutDir>
+    <IntDir>$(Configuration)_2015\</IntDir>
+    <TargetName>MikanSound</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DevRelease|Win32'">
-    <OutDir>$(SolutionDir)$(Configuration)2015\</OutDir>
-    <IntDir>$(Configuration)2015\</IntDir>
+    <OutDir>$(SolutionDir)$(Configuration)_2015\</OutDir>
+    <IntDir>$(Configuration)_2015\</IntDir>
+    <TargetName>MikanSound</TargetName>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
